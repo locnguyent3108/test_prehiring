@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-05T02:29:23 ICT" name="All Test Suite" finished-at="2020-10-05T02:30:13 ICT" duration-ms="49830">
+    <groups>
+    </groups>
+    <test started-at="2020-10-05T02:29:23 ICT" name="/Users/reinz/Desktop/Blue_otter_preHiring_test" finished-at="2020-10-05T02:30:13 ICT" duration-ms="49830">
+      <class name="LoginTestCase">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:23 ICT" name="initDriver" finished-at="2020-10-05T02:29:24 ICT" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="signInWithEmailTestCase()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:24 ICT" name="signInWithEmailTestCase" finished-at="2020-10-05T02:29:31 ICT" duration-ms="7060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithEmailTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:31 ICT" name="tearDown" finished-at="2020-10-05T02:29:31 ICT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:31 ICT" name="initDriver" finished-at="2020-10-05T02:29:32 ICT" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="signInWithFacebook()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:32 ICT" name="signInWithFacebook" finished-at="2020-10-05T02:29:48 ICT" duration-ms="15235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithFacebook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:48 ICT" name="tearDown" finished-at="2020-10-05T02:29:48 ICT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:48 ICT" name="initDriver" finished-at="2020-10-05T02:29:48 ICT" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="signInWithGmail()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:29:48 ICT" name="signInWithGmail" finished-at="2020-10-05T02:30:05 ICT" duration-ms="16867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInWithGmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginTestCase@16022d9d]" started-at="2020-10-05T02:30:05 ICT" name="tearDown" finished-at="2020-10-05T02:30:05 ICT" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LoginTestCase -->
+      <class name="RegisterTestCase">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:RegisterTestCase@7e9a5fbe]" started-at="2020-10-05T02:30:05 ICT" name="initDriver" finished-at="2020-10-05T02:30:06 ICT" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="registerWithValidCredentials()[pri:0, instance:RegisterTestCase@7e9a5fbe]" started-at="2020-10-05T02:30:06 ICT" name="registerWithValidCredentials" finished-at="2020-10-05T02:30:12 ICT" duration-ms="6195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RegisterTestCase@7e9a5fbe]" started-at="2020-10-05T02:30:12 ICT" name="tearDown" finished-at="2020-10-05T02:30:13 ICT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RegisterTestCase -->
+    </test> <!-- /Users/reinz/Desktop/Blue_otter_preHiring_test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

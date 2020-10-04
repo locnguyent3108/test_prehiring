@@ -1,0 +1,16 @@
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/locator/LoginPageUI.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/pageObjects/LoginPageObject.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/pageObjects/RegisterPageObject.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/locator/HomePageUI.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/testFlow/LoginWorkFlow.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/pageObjects/HomePageObject.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/browserfactory/FirefoxDriverManager.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/helper/FakeData.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/locator/RegisterUI.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/pageObjects/PageConditions.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/helper/GlobalConstant.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/browserfactory/DriverType.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/browserfactory/ChromeDriverManager.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/browserfactory/DriverFactory.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/TestHelper.java
+/Users/reinz/Desktop/Blue_otter_preHiring_test/src/main/java/actions/BasePage.java
