@@ -11,6 +11,8 @@ This project is a part of interview. Please don't use it as case study.
 
 ## Setup
 
+Clone project to your local machine with this command `git clone <repository URL>`
+
 **Setup JDK:**
   1. Download JDK from here https://www.oracle.com/java/technologies/javase/jdk8-naming.html
   2. Install and setup JAVA_HOME in system properties. Please follow https://mkyong.com/java/how-to-set-java_home-on-windows-10/ to setup
