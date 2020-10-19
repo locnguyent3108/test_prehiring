@@ -3,12 +3,15 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.annotations.TestInstance;
+import org.testng.asserts.SoftAssert;
 
 import static actions.TestHelper.getDriver;
 
 public class LoginTestCase {
     WebDriver driver;
     LoginWorkFlow loginFlow;
+
 
     @BeforeMethod
     public void initDriver() {
@@ -19,24 +22,28 @@ public class LoginTestCase {
         loginFlow = new LoginWorkFlow(driver);
     }
 
-    @Test
+    @Test (priority = 2)
     public void signInWithEmailTestCase() {
+        String email = "locnguyent3108+01@gmail.com";
+        String password = "123456";
         loginFlow.homePage(homePageObject -> {
             homePageObject.openHomePage();
             homePageObject.clickLoginButton();
 
         }).loginPage(loginPageObject -> {
             loginPageObject.clickLoginWithEmail();
-            loginPageObject.inputEmail("locnguyent3108+01@gmail.com");
-            loginPageObject.inputPassword("123456");
+            loginPageObject.inputEmail(email);
+            loginPageObject.inputPassword(password);
             loginPageObject.clickLogin();
 
             loginPageObject.isLoginSuccess();
         });
     }
 
-    @Test
+    @Test(priority = 1)
     public void signInWithGmail() {
+        String email = "testloc3108@gmail.com";
+        String password = "Auvjdaj1992@";
         loginFlow.homePage(homePageObject -> {
             homePageObject.openHomePage();
             homePageObject.clickLoginButton();
@@ -44,7 +51,7 @@ public class LoginTestCase {
         }).loginPage(loginPage -> {
             loginPage.clickLoginWithGmail();
             loginPage.switchToPopup();
-            loginPage.inputCredentialsGmail("testloc3108@gmail.com", "Auvjdaj1992@");
+            loginPage.inputCredentialsGmail(email, password);
             loginPage.switchBackToMainPage();
 
             loginPage.isLoginSuccess();
@@ -52,8 +59,10 @@ public class LoginTestCase {
         });
     }
 
-    @Test
+    @Test (priority = 2)
     public void signInWithFacebook() {
+        String email = "keny_pris@yahoo.com";
+        String password = "Ngocloc312592@";
         loginFlow.homePage(homePageObject -> {
             homePageObject.openHomePage();
             homePageObject.clickLoginButton();
@@ -61,19 +70,20 @@ public class LoginTestCase {
         }).loginPage(loginPage -> {
             loginPage.clickLoginWithFacebook();
             loginPage.switchToPopup();
-            loginPage.inputCredentialsFacebook("keny_pris@yahoo.com", "Ngocloc312592@");
+            loginPage.inputCredentialsFacebook(email, password);
             loginPage.switchBackToMainPage();
 
             loginPage.isLoginSuccess();
-
         });
+    }
+
+    @Test
+    public void autoBuild() {
+        System.out.println("hello");
     }
 
     @AfterMethod
     public void tearDown() {
-        long id = Thread.currentThread().getId();
-        System.out.println("After test-method. Thread id is: " + id);
-
         driver.quit();
     }
 }
