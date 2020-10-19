@@ -79,7 +79,7 @@ public class LoginTestCase {
 
     @Test
     public void autoBuild() {
-        System.out.println("helloz");
+        System.out.println("hell");
     }
 
     @AfterMethod
